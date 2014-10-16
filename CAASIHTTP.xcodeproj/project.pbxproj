@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F882A61B19EF56C100DC4EFA /* CAASIHTTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F882A61A19EF56C100DC4EFA /* CAASIHTTP.h */; };
+		F882A61D19EF56C100DC4EFA /* CAASIHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = F882A61C19EF56C100DC4EFA /* CAASIHTTP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F882A61519EF56C100DC4EFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F882A61B19EF56C100DC4EFA /* CAASIHTTP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F882A61719EF56C100DC4EFA /* libCAASIHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAASIHTTP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F882A61A19EF56C100DC4EFA /* CAASIHTTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAASIHTTP.h; sourceTree = "<group>"; };
+		F882A61C19EF56C100DC4EFA /* CAASIHTTP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAASIHTTP.m; sourceTree = "<group>"; };
+		F882A62219EF56C100DC4EFA /* CAASIHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAASIHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F882A62519EF56C100DC4EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F882A61419EF56C100DC4EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F882A61F19EF56C100DC4EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F882A60E19EF56C100DC4EFA = {
+			isa = PBXGroup;
+			children = (
+				F882A61919EF56C100DC4EFA /* CAASIHTTP */,
+				F882A62319EF56C100DC4EFA /* CAASIHTTPTests */,
+				F882A61819EF56C100DC4EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F882A61819EF56C100DC4EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F882A61719EF56C100DC4EFA /* libCAASIHTTP.a */,
+				F882A62219EF56C100DC4EFA /* CAASIHTTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F882A61919EF56C100DC4EFA /* CAASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				F882A61A19EF56C100DC4EFA /* CAASIHTTP.h */,
+				F882A61C19EF56C100DC4EFA /* CAASIHTTP.m */,
+			);
+			path = CAASIHTTP;
+			sourceTree = "<group>";
+		};
+		F882A62319EF56C100DC4EFA /* CAASIHTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F882A62419EF56C100DC4EFA /* Supporting Files */,
+			);
+			path = CAASIHTTPTests;
+			sourceTree = "<group>";
+		};
+		F882A62419EF56C100DC4EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F882A62519EF56C100DC4EFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F882A61619EF56C100DC4EFA /* CAASIHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F882A62819EF56C100DC4EFA /* Build configuration list for PBXNativeTarget "CAASIHTTP" */;
+			buildPhases = (
+				F882A61319EF56C100DC4EFA /* Sources */,
+				F882A61419EF56C100DC4EFA /* Frameworks */,
+				F882A61519EF56C100DC4EFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAASIHTTP;
+			productName = CAASIHTTP;
+			productReference = F882A61719EF56C100DC4EFA /* libCAASIHTTP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F882A62119EF56C100DC4EFA /* CAASIHTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F882A62B19EF56C100DC4EFA /* Build configuration list for PBXNativeTarget "CAASIHTTPTests" */;
+			buildPhases = (
+				F882A61E19EF56C100DC4EFA /* Sources */,
+				F882A61F19EF56C100DC4EFA /* Frameworks */,
+				F882A62019EF56C100DC4EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAASIHTTPTests;
+			productName = CAASIHTTPTests;
+			productReference = F882A62219EF56C100DC4EFA /* CAASIHTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F882A60F19EF56C100DC4EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Caland;
+				TargetAttributes = {
+					F882A61619EF56C100DC4EFA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F882A62119EF56C100DC4EFA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F882A61219EF56C100DC4EFA /* Build configuration list for PBXProject "CAASIHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F882A60E19EF56C100DC4EFA;
+			productRefGroup = F882A61819EF56C100DC4EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F882A61619EF56C100DC4EFA /* CAASIHTTP */,
+				F882A62119EF56C100DC4EFA /* CAASIHTTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F882A62019EF56C100DC4EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F882A61319EF56C100DC4EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F882A61D19EF56C100DC4EFA /* CAASIHTTP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F882A61E19EF56C100DC4EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F882A62619EF56C100DC4EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F882A62719EF56C100DC4EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F882A62919EF56C100DC4EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F882A62A19EF56C100DC4EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F882A62C19EF56C100DC4EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAASIHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F882A62D19EF56C100DC4EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAASIHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F882A61219EF56C100DC4EFA /* Build configuration list for PBXProject "CAASIHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F882A62619EF56C100DC4EFA /* Debug */,
+				F882A62719EF56C100DC4EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F882A62819EF56C100DC4EFA /* Build configuration list for PBXNativeTarget "CAASIHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F882A62919EF56C100DC4EFA /* Debug */,
+				F882A62A19EF56C100DC4EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F882A62B19EF56C100DC4EFA /* Build configuration list for PBXNativeTarget "CAASIHTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F882A62C19EF56C100DC4EFA /* Debug */,
+				F882A62D19EF56C100DC4EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F882A60F19EF56C100DC4EFA /* Project object */;
+}
